@@ -5,7 +5,13 @@ font-size: 39px;
 padding-bottom: 10%;
 }
 .text-typography{
-    font-size: 3px;
+    font-size: 1px;
+}
+.subtext{
+    
+    padding-top: 4%;
+    width: 5%;
+    font-size: 10%;
 }
 .btn-aulagratis{
    background-color: red;
@@ -13,34 +19,68 @@ padding-bottom: 10%;
   width: 10%;
 }
 .btnlimit{
+    display: flex;
     height: 40%;
   margin-top: 10%;
+  width: 5%;
+  font-size: 1%;
 }
-.subtext{
-    padding-top: 10%;
-}
+
 .btnlimitaulagratis{
     
     width: 1%;
 }
    .carde{
     flex: 0 0 100%;
+    margin-bottom: 5%;
+   
     
    }
    .background-top{
     margin-top: 30%;
    }
    .background-benefits{
-    margin-top: 120%;
+    margin-top: 180%;
    }
    .text-dv{
     display: flex;
-    font-size: 2px;
+    font-size:  0.1em;
 
    }
    .limitText{
     width: 20%;
    }
+   .textCard{
+    width: 1%;
+    font-size: 1px;
+   }
+   .display-card{
+    height: 100%;
+    width: 100%;
+    
+   }
+   .subtext-card{
+    font-size: 1px;
+    width: 30%;
+   }
+   .subtext-future{
+    width: 30%;
+   }
+   .subtext-dev{
+    width: 10%;
+   }
+   .dev-two{
+    width: 30%;
+   }
+   .cardd{
+    width: 30%;
+    margin-bottom: 15%;
+   }
+   .card-line{
+    width: 1%;
+    height: 1%;
+   }
+ 
   
 }
 
@@ -82,12 +122,13 @@ padding-bottom: 10%;
     }
 
     .row {
+        width: 100%;
         --bs-gutter-x: 0rem;
         --bs-gutter-y: 0;
         display: flex;
         flex-wrap: wrap;
         margin-top: calc(-1 * var(--bs-gutter-y));
-        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-right: 60px;
         margin-left: calc(-.5 * var(--bs-gutter-x));
     }
 
@@ -254,7 +295,7 @@ padding-bottom: 10%;
     .subtext {
         color: #fff;
         font-family: Montserrat;
-        font-size: 20.117px;
+        font-size: 1.26em;
         font-style: normal;
         font-weight: 500;
         line-height: 165.9%;
@@ -266,8 +307,9 @@ padding-bottom: 10%;
     }
 
     .sublimit {
+        display: flex;
         margin-top: 2%;
-
+width: 100%;
     }
 
     
@@ -280,39 +322,7 @@ padding-bottom: 10%;
         display: flex;
     }
 
-    .display-cards {
-        margin-top: 8%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin-bottom: 8%;
-       
-    }
-
-    .carde {
-        background-color: transparent;
-        width: 338px;
-        height: 217px;
-        flex-shrink: 0;
-        border-radius: 15px;
-        border: 2px solid #00E8FF;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .text-card {
-        color: var(--cyan-claro, #00E8FF);
-        font-family: Montserrat;
-        font-size: 99.985px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: -1.5px;
-        margin-top: 5%;
-
-    }
+   
 
     .tt {
         text-align: center;
@@ -356,12 +366,7 @@ padding-bottom: 10%;
     }
 
 
-    .display-card {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        margin-top: 50px;
-    }
+    
 
     .cardd {
         border-radius: 11px 15px 15px 11px;
@@ -3034,24 +3039,8 @@ padding-bottom: 10%;
         line-height: normal;
     }
 
-    .subtext {
-        color: #fff;
-        font-family: Montserrat;
-        font-size: 20.117px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 165.9%;
-        /* 33.373px */
-        letter-spacing: -0.302px;
-        width: 553px;
-        height: 68px;
-        flex-shrink: 0;
-    }
-
-    .sublimit {
-        margin-top: 2%;
-
-    }
+    
+    
 
     .btn-class {
         display: flex;
@@ -3074,7 +3063,8 @@ padding-bottom: 10%;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin-bottom: 8%;
+        margin-bottom: 5%;
+        margin-right: 5%;
     }
 
     .carde {
@@ -3141,19 +3131,7 @@ padding-bottom: 10%;
         margin-top: 50px;
     }
 
-    .cardd {
-        border-radius: 11px 15px 15px 11px;
-        background: var(--pcv-gray, #E9E9E9);
-        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.59);
-        width: 525px;
-        height: 107.779px;
-        flex-shrink: 0;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        flex-direction: row;
-        position: relative;
-
-    }
+   
 
     .dev {
         margin-left: 12%;
