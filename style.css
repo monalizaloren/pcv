@@ -99,19 +99,27 @@ padding-bottom: 10%;
 }
  .one{
     display: flex;
-    height: 1000%;
+    
  }
  .number-one{
     display: flex;
-    
-    height: 100%;
-    
+    height: 100%; 
  }
   .short-cards{
     height: 100%;
     top:50%;
     display: flex;
   }
+  .number-two{
+    display: flex;
+    height: 100%; 
+    left: -35%;
+ }
+ .textD2{
+    top: 49%;
+    left: -37%;
+ }
+ 
 }
 
     * {
