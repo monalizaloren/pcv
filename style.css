@@ -1,5 +1,5 @@
     @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
-@media screen and (max-width: 800px){
+@media screen and (max-width: 400px){
     body{
         width: 100%;
     }
@@ -119,7 +119,25 @@ padding-bottom: 10%;
     top: 49%;
     left: -37%;
  }
- 
+ .guilherme-title{
+font-size: 2px;
+ }
+ .textgustavo{
+    width: 1%;
+    font-size: 1px;
+    display: flex;
+    left: 50%;
+}
+.subtext-gustavo{
+    display: flex;
+    right: 50%;
+    font-size: 2px;
+}
+ .btn-gustavo{
+    display: flex;
+    left: 50%;
+padding: 0.1%;
+ }
 }
 
     * {
@@ -1106,19 +1124,7 @@ width: 100%;
         margin-left: 3%;
     }
 
-    .guilherme-title {
-        color: var(--pcv-gray, #E9E9E9);
-        font-family: Montserrat;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 164.4%;
-        margin-left: 10%;
-        margin-top: -9%;
-        width: 647px;
-
-
-    }
+    
 
     .guilherme {
         color: var(--cyan-claro, #00E8FF);
@@ -1126,23 +1132,13 @@ width: 100%;
         font-size: 40px;
         font-style: normal;
         font-weight: 800;
-        line-height: 164.4%;
-        width: 647px;
+        
+       
     }
 
 
 
-    .text-gustavo {
-        color: var(--pcv-gray, #E9E9E9);
-        font-family: Montserrat;
-        font-size: 27px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 164.4%;
-        width: 575px;
-        margin-left: 10%;
-        margin-top: 5%;
-    }
+    
 
     .left-text {
         color: rgba(233, 233, 233, 0.54);
@@ -3794,11 +3790,7 @@ width: 100%;
 
     .guilherme-title {
         color: var(--pcv-gray, #E9E9E9);
-        font-family: Montserrat;
         font-size: 40px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 164.4%;
         margin-left: 10%;
         margin-top: -9%;
         width: 647px;
@@ -3806,15 +3798,7 @@ width: 100%;
 
     }
 
-    .guilherme {
-        color: var(--cyan-claro, #00E8FF);
-        font-family: Montserrat;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 164.4%;
-        width: 647px;
-    }
+   
 
 
 
@@ -6266,4 +6250,19 @@ width: 100%;
        height: 10%;
        
         display: flex;
+}
+.gt{
+    font-size: 20px;
+}
+.gui{
+    display: flex;
+    top: -30%;
+    font-size: 25px;
+    color: var(--cyan-claro, #00E8FF);
+}
+.textgustavo1{
+    font-size: 1px;
+}
+.stg{
+    font-size: 15px;
 }
