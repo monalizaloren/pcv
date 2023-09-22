@@ -405,13 +405,13 @@
                                         <div>
                                             <h4 class="guilherme-title">Veja o depoimento do<span class="guilherme">
                                                     Pai do Guilherme</span></h4>
-                                            <h4 class="text-gustavo">
+                                            <p class="text-gustavo">
                                                 Indeciso do que fazer após o término do ensino médio, Guilherme foi
                                                 motivado pelo seu pai
                                                 para iniciar os estudos na Programar Com Você. Após 2 meses de curso
                                                 conseguiu o seu
                                                 primeiro trabalho com criação de Chatbot
-                                            </h4>
+                                            </p>
                                             <h4 class="subtext-gustavo">Incrivel né? Você também pode!!</h4>
                                             <a href="#aulas-gratis">
                                                 <button class="btn-gustavo">Faça já uma aula grátis!!</button>
@@ -1506,6 +1506,54 @@
                 document.body.style.opacity = "0.1"; // Define a opacidade como 1 após a página ser carregada
             }, 1); // Tempo de atraso para garantir que a transição de opacidade já esteja em andamento
         }
+        // Função para verificar e alternar as classes com base no tamanho da tela
+function toggleClasses() {
+  const titleElement = document.querySelector('.guilherme-title');
+
+  if (window.innerWidth <= 768) {
+    // Adicionar a classe .gt e remover a classe .guilherme-title
+    titleElement.classList.add('gt');
+    titleElement.classList.remove('guilherme-title');
+  } else {
+    // Adicionar a classe .guilherme-title e remover a classe .gt
+    titleElement.classList.add('guilherme-title');
+    titleElement.classList.remove('gt');
+  }
+}
+function nomeGui() {
+  const titleElement = document.querySelector('.guilherme');
+
+  if (window.innerWidth <= 768) {
+    // Adicionar a classe .gt e remover a classe .guilherme-title
+    titleElement.classList.add('gui');
+    titleElement.classList.remove('guilherme');
+  } else {
+    // Adicionar a classe .guilherme-title e remover a classe .gt
+    titleElement.classList.add('guilherme');
+    titleElement.classList.remove('gui');
+  }
+}
+function subtextgu() {
+  const titleElement = document.querySelector('.subtext-gustavo');
+
+  if (window.innerWidth <= 768) {
+    // Adicionar a classe .gt e remover a classe .guilherme-title
+    titleElement.classList.add('stg');
+    titleElement.classList.remove('subtext-gustavo');
+  } else {
+    // Adicionar a classe .guilherme-title e remover a classe .gt
+    titleElement.classList.add('subtext-gustavo');
+    titleElement.classList.remove('stg');
+  }
+}
+
+// Chamar a função quando a página carregar e redimensionar a tela
+window.addEventListener('load', toggleClasses);
+window.addEventListener('resize', toggleClasses);
+window.addEventListener('load', nomeGui);
+window.addEventListener('resize', nomeGui);
+window.addEventListener('load', subtextgu);
+window.addEventListener('resize', subtextgu);
     </script>
 </body>
 
